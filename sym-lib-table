@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "C128Diag")(type "KiCad")(uri "${KIPRJMOD}/lib/C128Diag.kicad_sym")(options "")(descr ""))
+)
