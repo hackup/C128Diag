@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "track_dangling|119024400|124866400|98220f2a-9657-4a0f-b89b-07d406c38867|00000000-0000-0000-0000-000000000000",
+        "track_dangling|121564400|124866400|e0b0bd87-f746-449a-9f75-8d41a31a6517|00000000-0000-0000-0000-000000000000",
+        "track_dangling|121564400|124891800|404e3edc-9099-4525-8391-4d4a1f2bda42|00000000-0000-0000-0000-000000000000",
+        "track_dangling|126644400|124866400|8f7fc87e-520f-4b57-bcb3-f6e2456a9d73|00000000-0000-0000-0000-000000000000",
+        "track_dangling|126644400|124891800|ed9ef1c6-a234-47de-9cac-e02c651f0844|00000000-0000-0000-0000-000000000000",
+        "track_dangling|129184400|124866400|36e84514-f2d2-487c-9265-a347fb82041f|00000000-0000-0000-0000-000000000000",
+        "track_dangling|141884400|124891800|96f1f72f-815e-4312-b118-b0f58bcc8e38|00000000-0000-0000-0000-000000000000",
+        "track_dangling|144424400|124891800|f2ef2398-3ddd-47b7-9029-562595734972|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -65,7 +74,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
