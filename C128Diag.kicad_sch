@@ -6,8 +6,8 @@
 
   (title_block
     (title "C128Diag")
-    (date "2023-05-04")
-    (rev "0")
+    (date "2023-05-16")
+    (rev "1")
     (company "www.hackup.net")
     (comment 1 "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.")
     (comment 2 "This work is licensed under a")
@@ -9336,7 +9336,7 @@
     (property "Value" "1k" (at 85.8521 228.6073 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical" (at 87.63 227.33 0)
+    (property "Footprint" "C128Diag:Potentiometer_Bourns_3339P_Vertical" (at 87.63 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 227.33 0)
